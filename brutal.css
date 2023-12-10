@@ -210,10 +210,16 @@ p {
   background-position: center;
 }
 #headshot {
-  width: 18rem;
-  height: 18rem;
+  background-color: var(--thistle-cool);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url("headshot.png");
+  width: 12rem;
+  height: 15rem;
   margin-left: 0;
   margin-right: 2rem;
+  border-radius: 50%;
 }
 .gallery {
   width: 70%;
@@ -307,7 +313,7 @@ p {
 
   .header {
     width: 70vw;
-    height: 25vh;
+    height: 27vh;
     bottom: 7%;
     left: 16%;
   }
