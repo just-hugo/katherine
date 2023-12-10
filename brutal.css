@@ -36,68 +36,19 @@
   font-weight: normal;
   font-style: normal;
 }
-.ad {
-  font-family: "AD";
-}
-.allison {
-  font-family: "Allison";
-}
-.comic {
-  font-family: "Comic";
-}
 .stint {
   font-family: "Stint";
 }
-.whisper {
-  font-family: "Whisper";
-}
 html {
-  background-color: var(--teal);
+  background-color: transparent;
 }
 body {
   background-color: var(--teal);
   overflow-x: hidden;
 }
 p {
+  font-family: "Comic";
   font-size: 1.1rem;
-}
-.masthead {
-  height: 60dvh;
-  width: 80dvw;
-  background-image: var(--bg-books-1);
-  background-size: cover;
-  background-position: 25%;
-  border-radius: 15px;
-  border-top: 3px solid;
-  border-left: 3px solid;
-  border-right: 7px solid;
-  border-bottom: 7px solid;
-  border-color: black;
-  margin-bottom: 10rem;
-}
-.masthead h1 {
-  font-size: 3rem;
-  font-weight: 600;
-  color: black;
-}
-.masthead h2 {
-  color: black;
-  font-size: 1.5rem;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
-}
-.header {
-  background-color: white;
-  width: 70vw;
-  height: 30vh;
-  position: absolute;
-  bottom: 5%;
-  left: 16%;
-  border-radius: 15px;
-  border-top: 3px solid;
-  border-left: 3px solid;
-  border-right: 7px solid;
-  border-bottom: 7px solid;
-  border-color: black;
 }
 .navbar {
   width: 100vw;
@@ -109,22 +60,68 @@ p {
   border-right: 7px solid;
   border-bottom: 7px solid;
   border-color: black;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 .navbar-brand {
-  font-size: 1.75rem;
+  font-family: "Stint";
+  font-size: 1.25rem;
   font-weight: 900;
 }
 .nav-link {
   color: black;
 }
-h1,
-h2,
-h3,
-p,
-li,
-a {
-  color: var(--cream);
+.masthead {
+  height: 20rem;
+  width: 90%;
+  background-image: var(--bg-books-1);
+  background-size: cover;
+  background-position: 25%;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  margin-bottom: 12rem;
+}
+.masthead h1 {
+  font-family: "Whisper";
+  font-size: 3rem;
+  font-weight: 600;
+  color: black;
+  margin: 0rem;
+  padding: 0rem;
+}
+.masthead h2 {
+  color: black;
+  font-size: 1.25rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
+.header {
+  background-color: white;
+  width: 80vw;
+  height: 15rem;
+  position: absolute;
+  bottom: 12%;
+  left: 13%;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+.section-heading {
+  font-family: "AD";
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
 }
 .card {
   border-radius: 15px;
@@ -221,16 +218,6 @@ a {
 .gallery {
   width: 70%;
 }
-.section-heading {
-  color: black;
-  background-color: white;
-  border-radius: 15px;
-  border-top: 3px solid;
-  border-left: 3px solid;
-  border-right: 7px solid;
-  border-bottom: 7px solid;
-  border-color: black;
-}
 #content-title {
   position: absolute;
   left: 20%;
@@ -242,7 +229,8 @@ a {
   border-right: 7px solid;
   border-bottom: 4px solid;
   border-color: black;
-  width: 100vw;
+  width: 100dvw;
+  margin: 0;
   padding: 3rem 0rem;
 }
 .testimonial-section .card {
@@ -255,7 +243,7 @@ a {
   color: #2a2a2a;
   line-height: 1.6;
   position: relative;
-  padding: 1.2em 30px 1.2em 75px;
+  padding: 1.2em 1em 1.2em 50px;
 }
 
 .cardquote ::before {
@@ -273,12 +261,14 @@ a {
   content: "";
 }
 #about {
+  width: 100dvw;
   background-color: var(--mint-cream);
 }
 #about p {
   color: black;
 }
 #contact-section {
+  width: 100dvw;
   border-top: 1px solid;
   border-left: 7px solid;
   border-right: 7px solid;
@@ -299,4 +289,36 @@ p {
 #contact-section svg {
   width: 50%;
   height: 50%;
+}
+/* Desktop */
+@media (min-width: 992px) {
+  .navbar {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .masthead {
+    height: 60vh;
+    width: 80vw;
+    background-image: var(--bg-books-1);
+    background-size: cover;
+    background-position: 25%;
+    margin-bottom: 13rem;
+  }
+
+  .header {
+    width: 70vw;
+    height: 25vh;
+    bottom: 7%;
+    left: 16%;
+  }
+  .masthead h1 {
+    font-size: 3.25rem;
+    font-weight: 600;
+  }
+  .masthead h2 {
+    font-size: 1.5rem;
+  }
+  .cardquote {
+    padding: 1.2em 30px 1.2em 50px;
+  }
 }
