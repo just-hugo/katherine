@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Scriptina";
+  src: url("scriptina-pro-font/Scriptinapro-71lE.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AD";
+  src: url("Architects_Daughter/ArchitectsDaughter-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Allison";
+  src: url("Allison/Allison-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bad";
+  src: url("Bad_Script/BadScript-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Char";
+  src: url("Charmonman/Charmonman-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comic";
+  src: url("Comic_Neue/ComicNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mac";
+  src: url("Macondo_Swash_Caps/MacondoSwashCaps-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Meddon";
+  src: url("Meddon/Meddon-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merienda";
+  src: url("Merienda/Merienda-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neucha";
+  src: url("Neucha/Neucha-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rock Salt";
+  src: url("Rock_Salt/RockSalt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stint";
+  src: url("Stint_Ultra_Expanded/StintUltraExpanded-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Whisper";
+  src: url("Whisper/Whisper-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.ad {
+  font-family: "AD";
+}
+.allison {
+  font-family: "Allison";
+}
+.bad {
+  font-family: "Bad";
+}
+.char {
+  font-family: "Char";
+}
+.comic {
+  font-family: "Comic";
+}
+.mac {
+  font-family: "Mac";
+}
+.meddon {
+  font-family: "Meddon";
+}
+.mer {
+  font-family: "Merienda";
+}
+.neucha {
+  font-family: "Neucha";
+}
+.rock {
+  font-family: "Rock Salt";
+}
+.stint {
+  font-family: "Stint";
+}
+.whisper {
+  font-family: "Whisper";
+}
