@@ -373,8 +373,7 @@ p {
   border-right: 7px solid;
   border-bottom: 4px solid;
   border-color: black;
-  width: 100dvw;
-  margin: 0;
+  width: 99.7vw;
   padding: 3rem 0rem;
 }
 .testimonial-section .card {
@@ -409,7 +408,7 @@ p {
   background-color: transparent;
 }
 #bio {
-  width: 100dvw;
+  width: 99.7vw;
   background-color: var(--mint-cream);
   border-top: 0px solid;
   border-left: 7px solid;
@@ -420,15 +419,21 @@ p {
 #bio p {
   color: black;
 }
+#about {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 #contact {
-  width: 100dvw;
+  width: 99.7vw;
   border-top: 1px solid;
   border-left: 7px solid;
   border-right: 7px solid;
-  border-bottom: 10px solid;
+  border-bottom: 7px solid;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   border-color: black;
   background-color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 #contact-card {
   padding: 0rem 2rem;
@@ -479,22 +484,6 @@ p {
   }
   .cardquote {
     padding: 1.2em 30px 1.2em 50px;
-  }
-  .testimonial-section {
-    width: 99.7vw;
-  }
-  #about {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  #bio {
-    width: 99.7vw;
-  }
-  #contact {
-    width: 99.7vw;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin-bottom: 3rem;
   }
 }
 .modal {
