@@ -100,36 +100,250 @@
       </div>
       <div class="row justify-content-center">
         <div class="row gallery justify-content-center px-auto">
-          <div class="col-md-4 card">
-            <div class="card-top" id="maiden">
+          <div
+            class="col-md-4 card"
+            id="maiden"
+            data-bs-toggle="modal"
+            data-bs-target="#maidenModal"
+            onmouseover="hover(this)"
+            onmouseout="hover(this)"
+          >
+            <div class="card-top">
               <h1>Maiden of Moonsong</h1>
             </div>
             <div class="col current">Current project</div>
           </div>
-          <div class="col-md-4 card">
-            <div class="card-top" id="vincent">
+
+          <!-- Maiden Modal -->
+          <div
+            class="modal fade"
+            id="maidenModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="col-md-3 text-center">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Maiden of Moonsong
+                    </h1>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Vincent Card -->
+          <div
+            class="col-md-4 card"
+            id="vincent"
+            data-bs-toggle="modal"
+            data-bs-target="#vincentModal"
+            onmouseover="hover(this)"
+            onmouseout="hover(this)"
+          >
+            <div class="card-top">
               <h1>Vincent</h1>
             </div>
             <div class="col current">Current project</div>
           </div>
-          <div class="col-md-4 card">
-            <div class="card-top" id="wayward">
+          <!-- Vincent Modal -->
+          <div
+            class="modal fade"
+            id="vincentModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="col-md-3 text-center">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Vincent
+                    </h1>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wayward Card -->
+          <div
+            class="col-md-4 card"
+            id="wayward"
+            data-bs-toggle="modal"
+            data-bs-target="#waywardModal"
+            onmouseover="hover(this)"
+            onmouseout="hover(this)"
+          >
+            <div class="card-top">
               <h1>The WayWard War</h1>
             </div>
           </div>
-          <div class="col-md-4 card">
-            <div class="card-top" id="rozray">
+          <!-- Wayward Modal -->
+          <div
+            class="modal fade"
+            id="waywardModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="col-md-3 text-center">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Wayward War
+                    </h1>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Roz & Ray Card -->
+          <div
+            class="col-md-4 card"
+            id="rozray"
+            data-bs-toggle="modal"
+            data-bs-target="#rozrayModal"
+            onmouseover="hover(this)"
+            onmouseout="hover(this)"
+          >
+            <div class="card-top">
               <h1>Roz and Ray</h1>
             </div>
           </div>
-          <div class="col-md-4 card">
-            <div class="card-top" id="riddle">
+          <!-- RozRay Modal -->
+          <div
+            class="modal fade"
+            id="rozrayModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="col-md-3 text-center">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Roz & Ray
+                    </h1>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tom Riddle Card -->
+          <div
+            class="col-md-4 card"
+            id="riddle"
+            data-bs-toggle="modal"
+            data-bs-target="#riddleModal"
+            onmouseover="hover(this)"
+            onmouseout="hover(this)"
+          >
+            <div class="card-top">
               <h1>Tragedie of Tom Riddle</h1>
             </div>
           </div>
-          <div class="col-md-4 card">
-            <div class="card-top" id="polaroid">
+          <!-- Tom Riddle Modal -->
+          <div
+            class="modal fade"
+            id="riddleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="col-md-3 text-center">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      The Tragedie of Tom Riddle
+                    </h1>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Polaroid Stories -->
+          <div
+            class="col-md-4 card"
+            id="polaroid"
+            data-bs-toggle="modal"
+            data-bs-target="#polaroidModal"
+            onmouseover="hover(this)"
+            onmouseout="hover(this)"
+          >
+            <div class="card-top">
               <h1>Polaroid Stories</h1>
+            </div>
+          </div>
+          <!-- Polaroid Stories Modal -->
+          <div
+            class="modal fade"
+            id="polaroidModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="col-md-3 text-center">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Polaroid Stories
+                    </h1>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -153,8 +367,7 @@
       </div>
     </div>
 
-    <!-- Section 2: Text About -->
-
+    <!-- Section 2: About -->
     <div class="container-fluid py-5" id="about">
       <div class="row">
         <div class="col-6 col-md-3 mx-auto mt-5 my-md-auto mb-3 text-center">
@@ -240,6 +453,7 @@
           <div class="row g-0 align-items-center">
             <div class="col-md-3 text-center pb-5">
               <svg
+                class="text-shadow"
                 viewBox="0 0 327 320"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -316,6 +530,13 @@
         document.getElementById("mySidenav").classList.toggle("sidenav-expand");
         document.getElementById("mySidenav-bg").style.width = "0";
         document.querySelector("body").style.overflow = "visible";
+      }
+    </script>
+
+    <!-- Gallery thumbnail hover effect -->
+    <script>
+      function hover(thumbnail) {
+        thumbnail.classList.toggle("hover");
       }
     </script>
   </body>
