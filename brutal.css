@@ -257,6 +257,7 @@ p {
 }
 .section-heading {
   font-family: "AD";
+  font-variant: small-caps;
   color: black;
   background-color: white;
   border-radius: 15px;
@@ -296,8 +297,11 @@ p {
   border-radius: 5px;
 }
 .card-top h1 {
-  font-size: 2rem;
-  font-weight: 300;
+  font-family: "AD";
+  color: var(--cream);
+  font-size: 1.75rem;
+  font-weight: 500;
+  filter: drop-shadow(1px 1px 1px black);
 }
 .current {
   border-bottom-left-radius: 5px;
@@ -520,7 +524,7 @@ p {
   border-color: black;
 }
 .hover {
-  border-color: var(--purple);
+  border-color: var(--cream);
   transform: scale(1.075, 1.075);
   box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
@@ -534,15 +538,16 @@ p {
   margin-left: 1rem;
   margin-right: 0rem;
   border-radius: 30px;
-  background-color: var(--electric-green);
+  background-color: var(--purple);
   filter: drop-shadow(1px 2px 1px rgb(164, 161, 161));
 }
 .source {
+  font-variant: small-caps;
   margin-left: 0rem;
   font-family: "AD";
   font-size: 1.35rem;
   font-weight: 600;
-  color: var(--purple);
+  color: black;
 }
 .svg-dash {
   width: 1.5rem;
