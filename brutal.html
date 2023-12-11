@@ -18,7 +18,32 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md" id="nav">
+    <div class="sidenav-bg" id="mySidenav-bg"></div>
+
+    <!-- Navigation -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="sidenav-menu ms-2">
+        <ul>
+          <li>
+            <a href="brutal.html#portfolio" class=" " onclick="closeNav()"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="brutal.html#about" class=" " onclick="closeNav()">About</a>
+          </li>
+          <li>
+            <a href="brutal.html#contact" class=" " onclick="closeNav()"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg" id="nav">
       <div class="container-fluid">
         <div class="row justify-content-start">
           <div class="col ms-5 mt-2">
@@ -27,29 +52,25 @@
         </div>
         <div class="row">
           <div class="col-4 me-3">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
+            <button class="burger-menu" onclick="openNav()">
+              <div class="row align-items-center">
+                <div class="col-1 burger-line1 round"></div>
+                <div class="col-1 burger-line2 round"></div>
+                <div class="col-1 burger-line3 round"></div>
+              </div>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse">
               <ul class="navbar-nav">
-                <li class="col-3 me-3">
-                  <a class="nav-link stint" href="index.html#section1"
-                    >Portfolio</a
+                <li class="nav-item col-3 me-4">
+                  <a class="nav-link" href="brutal.html#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item col-3 me-3">
+                  <a class="nav-link" href="brutal.html#about">About</a>
+                </li>
+                <li class="nav-item col-3 me-5">
+                  <a class="nav-link" href="brutal.html#contact-section"
+                    >Contact</a
                   >
-                </li>
-                <li class="col-3 me-3">
-                  <a class="nav-link stint" href="#">About</a>
-                </li>
-                <li class="col-3 me-5">
-                  <a class="nav-link stint">Contact</a>
                 </li>
               </ul>
             </div>
@@ -213,7 +234,7 @@
     </div>
 
     <!-- Section 3: Contact -->
-    <div class="container-fluid section py-5" id="contact-section">
+    <div class="container-fluid section py-5" id="contact">
       <div class="row justify-content-center py-5">
         <div class="card py-5" style="max-width: 70vw" id="contact-card">
           <div class="row g-0 align-items-center">
@@ -276,10 +297,26 @@
       src="../node_modules/bootstrap/dist/js/bootstrap.min.js"
       async=""
     ></script>
-
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-1.12.0.min.js"
     ></script>
+
+    <!-- Hamburger Side Menu activation -->
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px; remove scroll from body */
+      function openNav() {
+        document.getElementById("mySidenav").classList.toggle("sidenav-expand");
+        document.getElementById("mySidenav-bg").style.width = "100vw";
+        document.querySelector("body").style.overflow = "hidden";
+      }
+
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").classList.toggle("sidenav-expand");
+        document.getElementById("mySidenav-bg").style.width = "0";
+        document.querySelector("body").style.overflow = "visible";
+      }
+    </script>
   </body>
 </html>
