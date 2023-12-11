@@ -76,6 +76,12 @@ p {
   font-family: "Stint";
   color: black;
 }
+.nav-link:hover {
+  font-family: "Stint";
+  color: var(--purple);
+  font-weight: 900;
+  transform: translate(1px, 1px) scale(1.05);
+}
 .burger-menu {
   position: relative;
   display: inline-block;
@@ -232,7 +238,7 @@ p {
 }
 .masthead h2 {
   color: black;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
 }
 .header {
@@ -469,7 +475,7 @@ p {
     font-weight: 600;
   }
   .masthead h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .cardquote {
     padding: 1.2em 30px 1.2em 50px;
@@ -525,7 +531,7 @@ p {
   border-color: black;
 }
 .hover {
-  border-color: var(--electric-green);
+  border-color: var(--purple);
   transform: scale(1.075, 1.075);
   box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
