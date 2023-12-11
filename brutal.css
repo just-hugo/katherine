@@ -8,7 +8,7 @@
   --mint-cream: #eefcf4;
   --electric-green: #73e2a7;
   --purple: #6633ff;
-  --purple-clear: rgba(33, 3, 123, 0.764);
+  --purple-clear: rgba(33, 3, 123, 0.549);
   --thistle-cool: #dccfec;
 }
 @font-face {
@@ -267,12 +267,6 @@ p {
   border-color: black;
 }
 .gallery .card {
-  border-radius: 15px;
-  border-top: 3px solid;
-  border-left: 3px solid;
-  border-right: 7px solid;
-  border-bottom: 7px solid;
-  border-color: black;
   margin-bottom: 02em;
   margin-top: 1em;
   margin-left: 1em;
@@ -325,6 +319,7 @@ p {
   );
 }
 #wayward {
+  content: "TEsts";
   background-image: url("WaywardWar1.jpg");
   background-size: cover;
   background-position: center;
@@ -420,14 +415,16 @@ p {
   border-right: 7px solid;
   border-bottom: 10px solid;
   border-color: black;
-
   background-color: white;
+  margin-bottom: 2rem;
 }
 #contact-card {
   padding: 0rem 2rem;
   background-color: var(--mint-cream);
 }
-
+#contact-card h1 {
+  font-family: "AD";
+}
 #contact-card h1,
 p {
   color: black;
@@ -487,4 +484,44 @@ p {
     border-bottom-right-radius: 15px;
     margin-bottom: 3rem;
   }
+}
+.modal {
+  background-color: var(--purple-clear);
+}
+.modal-content {
+  background-color: white;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: var(--teal);
+}
+.modal-header {
+  border-width: 0px;
+}
+.modal-header .btn-close {
+  margin-right: 1rem;
+}
+.modal-header .btn-close:hover {
+  transform: translate(-1px, -1px) scale(1.075);
+  color: var(--purple);
+  text-shadow: 2px 1px 1px rgb(187, 184, 184);
+}
+.modal-title {
+  background-color: var(--electric-green);
+  font-family: "AD";
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+.hover {
+  border-color: var(--electric-green);
+  transform: scale(1.075, 1.075);
+}
+.text-shadow {
+  filter: drop-shadow(1px 2px 1px rgb(164, 161, 161));
 }
