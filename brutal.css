@@ -397,7 +397,7 @@ p {
 .cardquote ::after {
   content: "";
 }
-#about {
+#bio {
   width: 100dvw;
   background-color: var(--mint-cream);
   border-top: 0px solid;
@@ -406,7 +406,7 @@ p {
   border-bottom: 0px solid;
   border-color: black;
 }
-#about p {
+#bio p {
   color: black;
 }
 #contact {
@@ -472,11 +472,11 @@ p {
   .testimonial-section {
     width: 99.7vw;
   }
-  #ts-1 {
+  #about {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
-  #about {
+  #bio {
     width: 99.7vw;
   }
   #contact {
