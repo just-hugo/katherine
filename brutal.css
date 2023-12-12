@@ -303,7 +303,7 @@ p {
 }
 .card-header {
   font-family: "AD";
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
   font-variant: small-caps;
   color: black;
@@ -407,6 +407,10 @@ p {
 .cardquote ::after {
   content: "";
 }
+.testimonial-section .card .card-footer {
+  border-width: 0px;
+  background-color: transparent;
+}
 #bio {
   width: 99.7vw;
   background-color: var(--mint-cream);
@@ -484,6 +488,9 @@ p {
   }
   .cardquote {
     padding: 1.2em 30px 1.2em 50px;
+  }
+  .card-header {
+    font-size: 1.5rem;
   }
 }
 .modal {
