@@ -1,5 +1,5 @@
 :root {
-  --teal: #178b8e;
+  --teal: #1dabaf;
   --bg-books-1: url("123_1 2.JPEG");
   --bg-books-2: url("123_1.JPEG");
   --cream: #fff4e9;
@@ -561,4 +561,14 @@ p {
   .card-header {
     font-size: 1.5rem;
   }
+}
+.checkmark-outer {
+  width: 2.5rem;
+}
+.checkmark-inner {
+  filter: drop-shadow(1px 2px 3px rgb(0, 0, 0));
+}
+.checkmark {
+  stroke: var(--electric-green);
+  filter: drop-shadow(1px 2px 3px rgb(0, 0, 0));
 }
