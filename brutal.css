@@ -308,9 +308,13 @@ p {
   font-variant: small-caps;
   color: black;
   border-radius: 200px;
-  border-color: var(--electric-green);
+  border-color: black;
   border-width: 5px;
   background-color: white;
+}
+.card-body {
+  border-top-width: 5px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 1) inset;
 }
 .card-footer {
   font-family: "AD";
@@ -319,7 +323,7 @@ p {
   font-variant: small-caps;
   color: black;
   border-radius: 200px;
-  border-color: var(--electric-green);
+  border-color: black;
   border-width: 5px;
   background-color: white;
 }
@@ -529,6 +533,9 @@ p {
 .hover {
   border-color: var(--cream);
   transform: scale(1.075, 1.075);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+.vignette {
   box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
 .text-shadow {
