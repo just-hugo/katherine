@@ -268,7 +268,7 @@ p {
   border-color: black;
 }
 .card {
-  border-radius: 15px;
+  border-radius: 10px;
   border-top: 3px solid;
   border-left: 3px solid;
   border-right: 7px solid;
@@ -280,28 +280,15 @@ p {
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  padding: 0;
   min-width: 18rem;
   max-width: 18rem;
   height: 20rem;
+  padding: 0px;
   -webkit-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
   -moz-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
   -o-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
   -ms-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
   transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
-}
-.card-top {
-  height: 100%;
-  font-variant: small-caps;
-  padding: 30% 20%;
-  border-radius: 5px;
-}
-.card-top h1 {
-  font-family: "AD";
-  color: var(--cream);
-  font-size: 1.75rem;
-  font-weight: 500;
-  filter: drop-shadow(1px 1px 1px black);
 }
 .current {
   border-bottom-left-radius: 5px;
@@ -314,39 +301,52 @@ p {
   margin-top: 6%;
   margin-bottom: 6%;
 }
-#maiden {
+.card-header {
+  font-family: "AD";
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  color: black;
+  border-radius: 200px;
+  border-color: var(--electric-green);
+  border-width: 5px;
+  background-color: white;
+}
+.card-footer {
+  font-family: "AD";
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  color: black;
+  border-radius: 200px;
+  border-color: var(--electric-green);
+  border-width: 5px;
+  background-color: white;
+}
+#maiden .card-body {
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    187deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-color: var(--thistle-cool);
 }
 #vincent {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    187deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-color: var(--cream);
 }
-#wayward {
-  content: "TEsts";
+#wayward .card-body {
   background-image: url("WaywardWar1.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
-#rozray {
+#rozray .card-body {
   background-image: url("RR3.webp");
   background-size: cover;
-  background-position: center;
+  background-position: 70%;
 }
-#riddle {
+#riddle .card-body {
   background-image: url("Riddle2.jpg");
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
-#polaroid {
+#polaroid .card-body {
   background-image: url("Polaroid1.jpg");
   background-size: cover;
   background-position: center;
@@ -406,10 +406,6 @@ p {
 
 .cardquote ::after {
   content: "";
-}
-.card-footer {
-  border-width: 0px;
-  background-color: transparent;
 }
 #bio {
   width: 99.7vw;
@@ -545,7 +541,7 @@ p {
   font-variant: small-caps;
   margin-left: 0rem;
   font-family: "AD";
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: black;
 }
