@@ -43,8 +43,6 @@
 }
 html {
   background-color: transparent;
-  overflow-x: hidden;
-  margin-left: 0.15rem;
 }
 body {
   background-color: var(--teal);
@@ -314,7 +312,7 @@ p {
 }
 .card-body {
   border-top-width: 5px;
-  box-shadow: 0px 0px 5px rgba(255, 255, 255, 1) inset;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75) inset;
 }
 .card-footer {
   font-family: "AD";
@@ -458,45 +456,6 @@ p {
   width: 50%;
   height: 50%;
 }
-/* Desktop */
-@media (min-width: 992px) {
-  .navbar {
-    width: 99.7vw;
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
-  }
-  .burger-menu {
-    visibility: hidden;
-    display: none;
-  }
-  .masthead {
-    height: 60vh;
-    width: 80vw;
-    background-image: var(--bg-books-1);
-    background-size: cover;
-    background-position: 25%;
-    margin-bottom: 13rem;
-  }
-  .header {
-    width: 70vw;
-    height: 27vh;
-    bottom: 7%;
-    left: 16%;
-  }
-  .masthead h1 {
-    font-size: 3.25rem;
-    font-weight: 600;
-  }
-  .masthead h2 {
-    font-size: 1.25rem;
-  }
-  .cardquote {
-    padding: 1.2em 30px 1.2em 50px;
-  }
-  .card-header {
-    font-size: 1.5rem;
-  }
-}
 .modal {
   background-color: var(--purple-clear);
 }
@@ -563,4 +522,43 @@ p {
   width: 1.5rem;
   height: 5px;
   margin-bottom: 0.5rem;
+}
+/* Desktop */
+@media (min-width: 992px) {
+  .navbar {
+    width: 99.7vw;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .burger-menu {
+    visibility: hidden;
+    display: none;
+  }
+  .masthead {
+    height: 60vh;
+    width: 80vw;
+    background-image: var(--bg-books-1);
+    background-size: cover;
+    background-position: 25%;
+    margin-bottom: 13rem;
+  }
+  .header {
+    width: 70vw;
+    height: 27vh;
+    bottom: 7%;
+    left: 16%;
+  }
+  .masthead h1 {
+    font-size: 3.25rem;
+    font-weight: 600;
+  }
+  .masthead h2 {
+    font-size: 1.25rem;
+  }
+  .cardquote {
+    padding: 1.2em 30px 1.2em 50px;
+  }
+  .card-header {
+    font-size: 1.5rem;
+  }
 }
