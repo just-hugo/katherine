@@ -1,1 +1,585 @@
+:root {
+  --teal: #1dabaf;
+  --bg-books-1: url("123_1 2.JPEG");
+  --bg-books-2: url("123_1.JPEG");
+  --cream: #fff4e9;
+  --maroon: rgb(117, 35, 15);
+  --grey: rgb(124, 124, 124);
+  --mint-cream: #eefcf4;
+  --electric-green: #73e2a7;
+  --electric-green-clear: #73e2a7b6;
+  --purple: #6633ff;
+  --purple-clear: rgba(33, 3, 123, 0.549);
+  --thistle-cool: #dccfec;
+}
+@font-face {
+  font-family: "AD";
+  src: url("Architects_Daughter/ArchitectsDaughter-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comic";
+  src: url("Comic_Neue/ComicNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stint";
+  src: url("Stint_Ultra_Expanded/StintUltraExpanded-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Whisper";
+  src: url("Whisper/Whisper-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.stint {
+  font-family: "Stint";
+}
+html {
+  background-color: transparent;
+}
+body {
+  background-color: var(--teal);
+  overflow-x: hidden;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+.navbar {
+  width: 100vw;
+  height: 11vh;
+  background-color: white;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.navbar-brand {
+  font-family: "Stint";
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.logo {
+  width: 3.25rem;
+  height: 3.25rem;
+  padding-bottom: 0.5rem;
+}
+.nav-link {
+  font-family: "Stint";
+  color: black;
+}
+.nav-link:hover {
+  font-family: "Stint";
+  color: var(--purple);
+  font-weight: 900;
+  transform: translate(1px, 1px) scale(1.05);
+}
+.burger-menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding-left: 0.8rem;
+  padding-right: 0.2rem;
+  margin-bottom: 0.5rem;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: white;
+}
+.burger-menu:hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  padding-left: 0.8rem;
+  padding-right: 0.1rem;
+  border-radius: 10px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+  border-color: black;
+  transform: translate(3px, 1px) scale(1.075);
+}
+.burger-line1,
+.burger-line2,
+.burger-line3 {
+  height: 0.18rem;
+  margin: 0.19rem 0.55rem;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 1);
+  transition: 0.4s;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+}
+/* The side navigation menu */
+.sidenav-bg {
+  background-color: var(--purple-clear);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 2;
+  /* Stay on top */
+  bottom: 0;
+  left: 0%;
+  overflow: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav {
+  background-color: rgba(255, 255, 255);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  height: 60%;
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  margin-top: 20%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 2;
+  /* Stay on top */
+  top: 0;
+  right: 5%;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  overflow-y: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 40px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav-menu {
+  margin-top: 1.75rem;
+}
+/* The navigation menu links */
 
+.sidenav ul {
+  padding: 0rem 1rem;
+  margin-bottom: 0rem;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.35em;
+  font-weight: 600;
+  display: block;
+  transition: 0.5s;
+  z-index: 2;
+}
+.sidenav a {
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  display: block;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+}
+.sidenav-expand {
+  width: 50vw;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  transform: translate(10px, 1px) scale(1.075);
+  color: var(--teal);
+  text-shadow: 2px 1px 1px rgb(187, 184, 184);
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1%;
+  font-size: 2.75rem;
+  margin-left: 50px;
+  margin-bottom: 1rem;
+}
+.masthead {
+  height: 20rem;
+  width: 90%;
+  background-image: var(--bg-books-1);
+  background-size: cover;
+  background-position: 25%;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  margin-bottom: 12rem;
+}
+.masthead h1 {
+  font-family: "Whisper";
+  font-size: 3rem;
+  font-weight: 600;
+  color: black;
+  margin: 0rem;
+  padding: 0rem;
+}
+.masthead h2 {
+  color: black;
+  font-size: 1.15rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
+.header {
+  background-color: white;
+  width: 80vw;
+  height: 15rem;
+  position: relative;
+  top: 75%;
+  left: 5%;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+.section-heading {
+  font-family: "AD";
+  font-variant: small-caps;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+.card {
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+.gallery .card {
+  margin-bottom: 02em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  min-width: 18rem;
+  max-width: 18rem;
+  height: 20rem;
+  padding: 0px;
+  -webkit-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -moz-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -o-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -ms-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+}
+.current {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.card-icon {
+  margin-left: 46%;
+  margin-right: 54%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.card-header {
+  font-family: "AD";
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  color: black;
+  border-radius: 200px;
+  border-color: black;
+  border-width: 5px;
+  background-color: white;
+}
+.card-body {
+  border-top-width: 5px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75) inset;
+}
+.card-footer {
+  font-family: "AD";
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  color: black;
+  border-radius: 200px;
+  border-color: black;
+  border-width: 5px;
+  background-color: white;
+}
+#maiden .card-body {
+  background: rgb(0, 0, 0);
+  background-color: var(--thistle-cool);
+}
+#vincent {
+  background-color: var(--cream);
+}
+#wayward .card-body {
+  background-image: url("WaywardWar1.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+#rozray .card-body {
+  background-image: url("RR3.webp");
+  background-size: cover;
+  background-position: 70%;
+}
+#riddle .card-body {
+  background-image: url("Riddle2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+#polaroid .card-body {
+  background-image: url("Polaroid1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#headshot {
+  background-color: var(--cream);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url("headshot.png");
+  width: 12rem;
+  height: 15rem;
+  margin-left: 0;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+.gallery {
+  width: 70%;
+}
+#content-title {
+  position: absolute;
+  left: 20%;
+}
+.testimonial-section {
+  background-color: var(--thistle-cool);
+  border-top: 4px solid;
+  border-left: 7px solid;
+  border-right: 7px solid;
+  border-bottom: 4px solid;
+  border-color: black;
+  width: 99.7vw;
+  padding: 3rem 0rem;
+}
+.testimonial-section .card {
+  margin: 0rem 2rem;
+}
+
+.cardquote {
+  font-size: 1.05em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2a2a2a;
+  line-height: 1.6;
+  position: relative;
+  padding: 1.2em 1em 1.2em 50px;
+}
+
+.cardquote ::before {
+  content: "\201C";
+  color: var(--purple);
+  font-family: Helvetica;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  text-shadow: 3px 2px 1px rgb(187, 184, 184);
+}
+
+.cardquote ::after {
+  content: "";
+}
+.testimonial-section .card .card-footer {
+  border-width: 0px;
+  background-color: transparent;
+}
+#bio {
+  width: 99.7vw;
+  background-color: var(--mint-cream);
+  border-top: 0px solid;
+  border-left: 7px solid;
+  border-right: 7px solid;
+  border-bottom: 0px solid;
+  border-color: black;
+}
+#bio p {
+  color: black;
+}
+#about {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#contact {
+  width: 99.7vw;
+  border-top: 1px solid;
+  border-left: 7px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-color: black;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+#contact-card {
+  padding: 0rem 2rem;
+  background-color: var(--mint-cream);
+}
+#contact-card h1 {
+  font-family: "AD";
+}
+#contact-card h1,
+p {
+  color: black;
+}
+#contact svg {
+  width: 50%;
+  height: 50%;
+}
+.modal {
+  background-color: var(--purple-clear);
+}
+.modal-content {
+  background-color: white;
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: var(--teal);
+}
+.modal-header {
+  border-width: 0px;
+}
+.modal-header .btn-close {
+  margin-right: 1rem;
+}
+.modal-header .btn-close:hover {
+  transform: translate(-1px, -1px) scale(1.075);
+  color: var(--purple);
+  text-shadow: 2px 1px 1px rgb(187, 184, 184);
+}
+.modal-title {
+  background-color: var(--electric-green);
+  font-family: "AD";
+  border-radius: 15px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+.hover {
+  border-color: var(--cream);
+  transform: scale(1.075, 1.075);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+.vignette {
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+.text-shadow {
+  filter: drop-shadow(1px 2px 1px rgb(164, 161, 161));
+}
+.em-dash {
+  width: 1.75rem;
+  height: 0.15rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 0rem;
+  border-radius: 30px;
+  background-color: var(--purple);
+  filter: drop-shadow(1px 2px 1px rgb(164, 161, 161));
+}
+.source {
+  font-variant: small-caps;
+  margin-left: 0rem;
+  font-family: "AD";
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: black;
+}
+.svg-dash {
+  width: 1.5rem;
+  height: 5px;
+  margin-bottom: 0.5rem;
+}
+/* Desktop */
+@media (min-width: 992px) {
+  .navbar {
+    width: 99.7vw;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .burger-menu {
+    visibility: hidden;
+    display: none;
+  }
+  .masthead {
+    height: 60vh;
+    width: 80vw;
+    background-image: var(--bg-books-1);
+    background-size: cover;
+    background-position: 25%;
+    margin-bottom: 13rem;
+  }
+
+  .header {
+    width: 70vw;
+    top: 90%;
+    left: 5%;
+  }
+  .masthead h1 {
+    font-size: 3.25rem;
+    font-weight: 600;
+  }
+  .masthead h2 {
+    font-size: 1.25rem;
+  }
+  .cardquote {
+    padding: 1.2em 30px 1.2em 50px;
+  }
+  .card-header {
+    font-size: 1.5rem;
+  }
+}
+.checkmark-outer {
+  width: 2.5rem;
+}
+.checkmark-inner {
+  filter: drop-shadow(-1px 2px 1px rgb(0, 0, 0))
+    drop-shadow(-3px -3px 1px rgb(0, 0, 0));
+}
+.checkmark-bg {
+  fill: white;
+}
+.checkmark {
+  stroke: var(--electric-green);
+  filter: drop-shadow(1px 2px 1px rgb(0, 0, 0))
+    drop-shadow(3px 3px 1px rgb(0, 0, 0))
+    drop-shadow(-1px -2px 1px rgb(0, 0, 0));
+}
