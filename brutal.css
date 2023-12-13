@@ -71,8 +71,9 @@ p {
   font-weight: 900;
 }
 .logo {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  padding-bottom: 0.5rem;
 }
 .nav-link {
   font-family: "Stint";
@@ -247,9 +248,9 @@ p {
   background-color: white;
   width: 80vw;
   height: 15rem;
-  position: absolute;
-  bottom: 12%;
-  left: 13%;
+  position: relative;
+  top: 75%;
+  left: 5%;
   border-radius: 15px;
   border-top: 3px solid;
   border-left: 3px solid;
@@ -546,11 +547,11 @@ p {
     background-position: 25%;
     margin-bottom: 13rem;
   }
+
   .header {
     width: 70vw;
-    height: 27vh;
-    bottom: 7%;
-    left: 16%;
+    top: 90%;
+    left: 5%;
   }
   .masthead h1 {
     font-size: 3.25rem;
