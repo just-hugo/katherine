@@ -70,6 +70,10 @@ p {
   font-size: 1.25rem;
   font-weight: 900;
 }
+.logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
 .nav-link {
   font-family: "Stint";
   color: black;
@@ -566,9 +570,15 @@ p {
   width: 2.5rem;
 }
 .checkmark-inner {
-  filter: drop-shadow(1px 2px 3px rgb(0, 0, 0));
+  filter: drop-shadow(-1px 2px 1px rgb(0, 0, 0))
+    drop-shadow(-3px -3px 1px rgb(0, 0, 0));
+}
+.checkmark-bg {
+  fill: white;
 }
 .checkmark {
   stroke: var(--electric-green);
-  filter: drop-shadow(1px 2px 3px rgb(0, 0, 0));
+  filter: drop-shadow(1px 2px 1px rgb(0, 0, 0))
+    drop-shadow(3px 3px 1px rgb(0, 0, 0))
+    drop-shadow(-1px -2px 1px rgb(0, 0, 0));
 }
