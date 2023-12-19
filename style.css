@@ -52,6 +52,15 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
 }
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+.invisible {
+  display: none;
+}
 .navbar {
   width: 100vw;
   height: 11vh;
@@ -235,11 +244,11 @@ p {
   border-right: 7px solid;
   border-bottom: 7px solid;
   border-color: black;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
 }
 .masthead h1 {
   font-family: "Whisper";
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 600;
   color: black;
   margin: 0rem;
@@ -247,13 +256,13 @@ p {
 }
 .masthead h2 {
   color: black;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
 }
 .header {
   background-color: white;
   width: 80vw;
-  height: 15rem;
+  height: 12rem;
   position: relative;
   top: 75%;
   left: 5%;
@@ -556,6 +565,7 @@ p {
 
   .header {
     width: 70vw;
+    height: 13.5rem;
     top: 90%;
     left: 5%;
   }
@@ -588,4 +598,105 @@ p {
   filter: drop-shadow(1px 2px 1px rgb(0, 0, 0))
     drop-shadow(3px 3px 1px rgb(0, 0, 0))
     drop-shadow(-1px -2px 1px rgb(0, 0, 0));
+}
+@keyframes test2 {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+    opacity: 1;
+  }
+}
+.test-animation2 {
+  animation: 1s test2;
+}
+@keyframes test3 {
+  0% {
+    transform: scaleY(0);
+    opacity: 0;
+    transform-origin: bottom;
+  }
+  50% {
+    transform: scaleY(1.1);
+    opacity: 0.5;
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+    transform-origin: bottom;
+  }
+}
+.test-animation3 {
+  animation: 0.8s test3;
+}
+
+/* Fade Animation */
+.animated {
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-ms-keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+.fadeInUp-animation {
+  -ms-animation: 1.75s fadeInUp;
+  -o-animation: 1.75s fadeInUp;
+  -moz-animation: 1.75s fadeInUp;
+  -webkit-animation: 1.75s fadeInUp;
+  animation: 1.75s fadeInUp;
 }
