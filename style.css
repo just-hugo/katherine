@@ -2,7 +2,7 @@
   --teal: #1dabaf;
   --bg-books-1: url("123_1 2.JPEG");
   --bg-books-2: url("123_1.JPEG");
-  --cream: #fff4e9;
+  --cream: #fff9f4;
   --maroon: rgb(117, 35, 15);
   --grey: rgb(124, 124, 124);
   --mint-cream: #eefcf4;
@@ -357,10 +357,80 @@ p {
   background-size: cover;
   background-position: bottom;
 }
+#ww-poster {
+  background-size: 101%;
+  background-repeat: no-repeat;
+  background-image: url("wayward-war-cover.jpg");
+  height: 10rem;
+  width: 15rem;
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+}
+#ww-img1 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("WaywardWar1.jpg");
+  margin-right: 1.5rem;
+  margin-left: 0;
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 8rem;
+  height: 8rem;
+}
+#ww-img2 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("Wayward\ War\ 2.jpg");
+  margin-left: 1rem;
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 8rem;
+  height: 8rem;
+}
 #rozray .card-body {
   background-image: url("RR3.webp");
   background-size: cover;
   background-position: 70%;
+}
+#rr-img1 {
+  background-size: 115%;
+  background-repeat: no-repeat;
+  background-image: url("RR\ 1.jpg");
+  margin-right: 1rem;
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 12rem;
+  height: 8rem;
+}
+
+#rr-img2 {
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-image: url("RR\ 2.jpg");
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 20rem;
+  height: 10rem;
 }
 #riddle .card-body {
   background-image: url("Riddle2.jpg");
@@ -368,10 +438,95 @@ p {
   background-repeat: no-repeat;
   background-position: 50% 100%;
 }
+#riddle-img1 {
+  background-size: 130%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-image: url("Riddle\ 1.jpg");
+  margin-left: 1rem;
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 10rem;
+  height: 8rem;
+}
+
+#riddle-img2 {
+  background-size: 117%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("Riddle2.jpg");
+  margin-left: 1rem;
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 17rem;
+  height: 12rem;
+}
+
+#riddle-img3 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("Riddle\ 3.jpg");
+  margin-left: 1rem;
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 17rem;
+  height: 12rem;
+}
 #polaroid .card-body {
   background-image: url("Polaroid1.jpg");
   background-size: cover;
   background-position: center;
+}
+#pol-img1 {
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-image: url("Polaroid1.jpg");
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 20rem;
+  height: 10rem;
+}
+#pol-img2 {
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-image: url("polaroid\ 2.jpg");
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 20rem;
+  height: 10rem;
+}
+#pol-img3 {
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-image: url("polaroid\ 3.jpg");
+  border-radius: 10px;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 7px solid;
+  border-bottom: 7px solid;
+  border-color: black;
+  width: 20rem;
+  height: 10rem;
 }
 #headshot {
   background-color: var(--cream);
@@ -379,10 +534,10 @@ p {
   background-repeat: no-repeat;
   background-position: bottom;
   background-image: url("headshot.png");
-  width: 12rem;
-  height: 15rem;
-  margin-left: 0;
-  margin-right: 2rem;
+  width: 10rem;
+  height: 13rem;
+  margin-left: 30%;
+  margin-right: 0;
   border-radius: 50%;
 }
 .gallery {
@@ -435,7 +590,7 @@ p {
 }
 #bio {
   width: 99.7vw;
-  background-color: var(--mint-cream);
+  background-color: rgb(219, 244, 255);
   border-top: 0px solid;
   border-left: 7px solid;
   border-right: 7px solid;
@@ -490,6 +645,10 @@ p {
 }
 .modal-header {
   border-width: 0px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
 }
 .modal-header .btn-close {
   margin-right: 1rem;
@@ -508,6 +667,10 @@ p {
   border-right: 7px solid;
   border-bottom: 7px solid;
   border-color: black;
+}
+.modal-body {
+  margin-left: 3rem;
+  margin-right: 2rem;
 }
 .hover {
   border-color: var(--cream);
@@ -542,6 +705,24 @@ p {
   width: 1.5rem;
   height: 5px;
   margin-bottom: 0.5rem;
+}
+.degree {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-variant-caps: small-caps;
+  margin-left: 0.25rem;
+}
+.uni {
+  font-style: oblique;
+}
+.prod-template {
+  font-family: "Stint";
+  font-size: 0.85rem;
+}
+
+.prod-details {
+  font-family: "AD";
+  font-size: 1rem;
 }
 /* Desktop */
 @media (min-width: 992px) {
@@ -582,9 +763,51 @@ p {
   .card-header {
     font-size: 1.5rem;
   }
+  .modal-header {
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .modal-body {
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  #headshot {
+    background-color: var(--cream);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url("headshot.png");
+    width: 12rem;
+    height: 15rem;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 50%;
+  }
+  #ww-img1 {
+    padding-top: 0.25rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1150px) {
+  #headshot {
+    width: 10rem;
+    height: 13rem;
+    margin-top: 1rem;
+  }
+  #qualifications {
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+  }
+  .degree {
+    font-size: 1rem;
+  }
+  .uni {
+    font-size: 0.9rem;
+  }
 }
 .checkmark-outer {
-  width: 2.5rem;
+  width: 1.75rem;
 }
 .checkmark-inner {
   filter: drop-shadow(-1px 2px 1px rgb(0, 0, 0))
