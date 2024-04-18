@@ -1,6 +1,6 @@
 :root {
   --teal: #1dabaf;
-  --bg-books-1: url("phonebooth.png");
+  --bg-books-1: url("https://github.com/just-hugo/katherine/blob/main/phonebooth.png?raw=true");
   --bg-books-2: url("123_1.JPEG");
   --cream: #fff9f4;
   --maroon: rgb(117, 35, 15);
@@ -353,14 +353,14 @@ p {
   background-color: var(--cream);
 }
 #wayward .card-body {
-  background-image: url("WaywardWar1.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/WaywardWar1.jpg?raw=true");
   background-size: cover;
   background-position: bottom;
 }
 #ww-poster {
   background-size: 101%;
   background-repeat: no-repeat;
-  background-image: url("wayward-war-cover.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/wayward-war-cover.jpg?raw=true");
   height: 10rem;
   width: 15rem;
   border-radius: 10px;
@@ -373,7 +373,7 @@ p {
 #ww-img1 {
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("WaywardWar1.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/WaywardWar1.jpg?raw=true");
   margin-right: 1.5rem;
   margin-left: 0;
   border-radius: 10px;
@@ -388,7 +388,7 @@ p {
 #ww-img2 {
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("Wayward\ War\ 2.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/Wayward%20War%202.jpg?raw=true");
   margin-left: 1rem;
   border-radius: 10px;
   border-top: 3px solid;
@@ -400,14 +400,14 @@ p {
   height: 8rem;
 }
 #rozray .card-body {
-  background-image: url("RR3.webp");
+  background-image: url("https://raw.githubusercontent.com/just-hugo/katherine/main/RR3.webp");
   background-size: cover;
   background-position: 70%;
 }
 #rr-img1 {
   background-size: 115%;
   background-repeat: no-repeat;
-  background-image: url("RR\ 1.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/RR%201.jpg?raw=true");
   margin-right: 1rem;
   border-radius: 10px;
   border-top: 3px solid;
@@ -422,7 +422,7 @@ p {
 #rr-img2 {
   background-size: 110%;
   background-repeat: no-repeat;
-  background-image: url("RR\ 2.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/RR%202.jpg?raw=true");
   border-radius: 10px;
   border-top: 3px solid;
   border-left: 3px solid;
@@ -433,7 +433,7 @@ p {
   height: 10rem;
 }
 #riddle .card-body {
-  background-image: url("Riddle2.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/Riddle2.jpg?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -442,7 +442,7 @@ p {
   background-size: 130%;
   background-position: bottom center;
   background-repeat: no-repeat;
-  background-image: url("Riddle\ 1.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/Riddle%201.jpg?raw=true");
   margin-left: 1rem;
   border-radius: 10px;
   border-top: 3px solid;
@@ -458,7 +458,7 @@ p {
   background-size: 117%;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url("Riddle2.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/Riddle2.jpg?raw=true");
   margin-left: 1rem;
   border-radius: 10px;
   border-top: 3px solid;
@@ -473,7 +473,7 @@ p {
 #riddle-img3 {
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("Riddle\ 3.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/Riddle%203.jpg?raw=true");
   margin-left: 1rem;
   border-radius: 10px;
   border-top: 3px solid;
@@ -485,14 +485,14 @@ p {
   height: 12rem;
 }
 #polaroid .card-body {
-  background-image: url("Polaroid1.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/Polaroid1.jpg?raw=true");
   background-size: cover;
   background-position: center;
 }
 #pol-img1 {
   background-size: 110%;
   background-repeat: no-repeat;
-  background-image: url("Polaroid1.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/Polaroid1.jpg?raw=true");
   border-radius: 10px;
   border-top: 3px solid;
   border-left: 3px solid;
@@ -505,7 +505,7 @@ p {
 #pol-img2 {
   background-size: 110%;
   background-repeat: no-repeat;
-  background-image: url("polaroid\ 2.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/polaroid%202.jpg?raw=true");
   border-radius: 10px;
   border-top: 3px solid;
   border-left: 3px solid;
@@ -518,7 +518,7 @@ p {
 #pol-img3 {
   background-size: 110%;
   background-repeat: no-repeat;
-  background-image: url("polaroid\ 3.jpg");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/polaroid%203.jpg?raw=true");
   border-radius: 10px;
   border-top: 3px solid;
   border-left: 3px solid;
@@ -533,7 +533,7 @@ p {
   background-size: 95%;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-image: url("headshot.png");
+  background-image: url("https://github.com/just-hugo/katherine/blob/main/headshot.png?raw=true");
   width: 10rem;
   height: 13rem;
   margin-left: 30%;
