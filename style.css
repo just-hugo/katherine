@@ -408,15 +408,14 @@ p {
   background-size: 115%;
   background-repeat: no-repeat;
   background-image: url("https://github.com/just-hugo/katherine/blob/main/RR%201.jpg?raw=true");
-  margin-right: 1rem;
   border-radius: 10px;
   border-top: 3px solid;
   border-left: 3px solid;
   border-right: 7px solid;
   border-bottom: 7px solid;
   border-color: black;
-  width: 12rem;
-  height: 8rem;
+  width: 9rem;
+  height: 6rem;
 }
 
 #rr-img2 {
@@ -429,7 +428,7 @@ p {
   border-right: 7px solid;
   border-bottom: 7px solid;
   border-color: black;
-  width: 20rem;
+  width: 17rem;
   height: 10rem;
 }
 #riddle .card-body {
@@ -439,8 +438,8 @@ p {
   background-position: 50% 100%;
 }
 #riddle-img1 {
-  background-size: 130%;
-  background-position: bottom center;
+  background-size: 150%;
+  background-position: top center;
   background-repeat: no-repeat;
   background-image: url("https://github.com/just-hugo/katherine/blob/main/Riddle%201.jpg?raw=true");
   margin-left: 1rem;
@@ -450,7 +449,7 @@ p {
   border-right: 7px solid;
   border-bottom: 7px solid;
   border-color: black;
-  width: 10rem;
+  width: 8rem;
   height: 8rem;
 }
 
@@ -668,10 +667,6 @@ p {
   border-bottom: 7px solid;
   border-color: black;
 }
-.modal-body {
-  margin-left: 3rem;
-  margin-right: 2rem;
-}
 .hover {
   border-color: var(--cream);
   transform: scale(1.075, 1.075);
@@ -776,7 +771,7 @@ p {
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-image: url("headshot.png");
+    background-image: url("https://github.com/just-hugo/katherine/blob/main/headshot.png?raw=true");
     width: 12rem;
     height: 15rem;
     margin-left: 0;
